@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en"><Esri><CreaDate>20170901</CreaDate><CreaTime>06303100</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField" Date="20170901" Time="063031">DeleteField ECS_subsections AREA;PERIMETER;ECSLTPY2_;ECSLTPY2_I;PROVNAME;ECS_PROV;SECNAME;ECS_SEC;SUBSECNAME;VERSION</Process></lineage></DataProperties></Esri></metadata>
