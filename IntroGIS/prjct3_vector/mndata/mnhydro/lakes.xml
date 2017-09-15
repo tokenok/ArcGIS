@@ -1,0 +1,393 @@
+<?xml version="1.0"?>
+<metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin>DNR Division of Fish &amp; Wildlife - Fisheries Unit</origin>
+                <pubdate>2002-03-29 00:00:00.0</pubdate>
+                <title>DNR 100K Lakes and Rivers</title>
+                <mgmg1cid/>
+                <pubinfo>
+                    <publish>Minnesota DNR - Division of Fisheries</publish>
+                </pubinfo>
+                <onlink>http://deli.dnr.state.mn.us</onlink>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>Polygons representing hydrographic features (lakes, ponds, some rivers, and open water areas) originating from the USGS 1:100,000 (100K)DLG (Digital Line Graph) dataset. (USCLASS's 116,400,402,412,421; see attributes). The data have been converted into ArcView and the attribute tables restructured and enhanced to better support DNR business practices.  During 2003 and 2004, DNR Division of Waters Lake Numbers were added and many lake outlines have been redigitized at 1:5,000 or better to support DNR Fisheries applications.</abstract>
+            <purpose>To provide a medium scale hydrography layer which is compatible with DNR business applications.  Some uses are regional hydrographic analysis, medium scale basemapping, limnological studies, and linkage to Fisheries data.</purpose>
+            <supplinf>Statewide</supplinf>
+        </descript>
+        <timeperd>
+            <timeinfo>
+                <sngdate>
+                    <caldate>Refer to 100k Quad Date. </caldate>
+                </sngdate>
+            </timeinfo>
+            <current>Refer to 100k Quad Date.  Selected polygons have been redigitized to match USGS 1991-1992 DOQ aerial photos.  </current>
+        </timeperd>
+        <status>
+            <progress>In Work</progress>
+            <update>As Needed</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-97.5</westbc>
+                <eastbc>-89</eastbc>
+                <northbc>49.5</northbc>
+                <southbc>43</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekey>Hydrography, Water, Lakes, DOW numbers, inlandWaters</themekey>
+            </theme>
+            <place>
+                <placekey>Minnesota</placekey>
+            </place>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>None</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntperp>
+                    <cntper>Lyn Bergquist</cntper>
+                    <cntorg>DNR-Fisheries</cntorg>
+                </cntperp>
+                <cntpos>GIS Coordinator</cntpos>
+                <cntaddr>
+                    <addrtype>Mailing and Physical</addrtype>
+                    <address>500 Lafayette Road
+Central Office - Box 20</address>
+                    <city>Saint Paul</city>
+                    <state>MN</state>
+                    <postal>55155</postal>
+                </cntaddr>
+                <cntvoice>(651) 259-5189</cntvoice>
+                <cntfax>(651) 297-4961</cntfax>
+                <cntemail>lyn.bergquist@state.mn.us</cntemail>
+            </cntinfo>
+        </ptcontac>
+        <browse>
+            <browsen>http://jmaps.dnr.state.mn.us/gis/dp_datasample.jsp?mpid=39000370&amp;ptid=2&amp;fcid=1&amp;lname=DNR 100K Lakes and Rivers</browsen>
+            <browsed/>
+        </browse>
+        <native>Shapefile</native>
+        <crossref>
+            <citeinfo>
+                <title/>
+            </citeinfo>
+        </crossref>
+    </idinfo>
+    <dataqual>
+        <attracc>
+            <attraccr>Source table LAKE_DNRPY2.DBF:  The bulk of the attributes are derived from the USGS DLG source, although for lakes with DOW Lake Numbers, the attributes have been reviewed by DNR Fisheries Staff.
+</attraccr>
+        </attracc>
+        <logic>Data have been checked usings software tools in ArcView 8.x and 3.x.  Topology verified using ArcInfo 8.x clean and build.</logic>
+        <complete>Data exist statewide. Lake data are consistently complete at a minimum feature size of approximately 5 acres with mapping to the 2 acre level present in some areas.  Redigitizing efforts to improve lake outlines continues (2004).
+</complete>
+        <posacc>
+            <horizpa>
+                <horizpar>Source layer lake_dnrpy2:  Horizontal positional accuracy is based originally on 100k USGS source quadrangles, and has been improved by on-screen digitizing over USGS 1991-1992 DOQ imagery.
+</horizpar>
+            </horizpa>
+            <vertacc>
+                <vertaccr>Source layer lake_dnrpy2:  Not Applicable
+</vertaccr>
+            </vertacc>
+        </posacc>
+        <lineage>
+            <srcinfo>
+                <srcscale>Source layer lake_dnrpy2:  100000
+</srcscale>
+            </srcinfo>
+            <procstep>
+                <procdesc>Attribute Lineage for source table LAKE_DNRPY2.DBF:  Attributes began with USGS DLG source data and in 2003-2004 were reviewed and updated where possible by DNR Fisheries GIS staff.
+</procdesc>
+            </procstep>
+        </lineage>
+    </dataqual>
+    <spdoinfo>
+        <indspref/>
+        <direct>vector</direct>
+        <mgmg3obj>polygon</mgmg3obj>
+        <mgmg3til>state</mgmg3til>
+    </spdoinfo>
+    <spref>
+        <horizsys>
+            <geograph>
+                <latres/>
+                <longres/>
+            </geograph>
+            <planar>
+                <mapproj>
+                    <mapprojn>Transverse Mercator</mapprojn>
+                    <mgmg4par>Not Applicable</mgmg4par>
+                    <otherprj>Not Applicable</otherprj>
+                </mapproj>
+                <gridsys>
+                    <gridsysn>UTM</gridsysn>
+                    <utm>
+                        <utmzone>15</utmzone>
+                    </utm>
+                    <spcs>
+                        <spcszone/>
+                    </spcs>
+                    <mgmg4coz/>
+                    <mgmg4adj>Not Applicable</mgmg4adj>
+                </gridsys>
+                <planci>
+                    <coordrep>
+                        <absres/>
+                        <ordres/>
+                    </coordrep>
+                    <distbrep>
+                        <distres>Source layer lake_dnrpy2:  Horizontal positional accuracy is based originally on 100k USGS source quadrangles, and has been improved by on-screen digitizing over USGS 1991-1992 DOQ imagery.
+</distres>
+                    </distbrep>
+                    <plandu>meters</plandu>
+                </planci>
+            </planar>
+            <geodetic>
+                <horizdn>NAD83</horizdn>
+                <ellips>GRS1980</ellips>
+            </geodetic>
+        </horizsys>
+        <vertdef>
+            <altsys>
+                <altdatum>Not Applicable</altdatum>
+                <altunits>Not Applicable</altunits>
+            </altsys>
+            <depthsys>
+                <depthdn>Not Applicable</depthdn>
+                <depthdu>Not Applicable</depthdu>
+            </depthsys>
+        </vertdef>
+    </spref>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>LAKE_DNRPY2.DBF</enttypl>
+                <enttypd>Shapefile Attribute Table</enttypd>
+            </enttyp>
+            <attr>
+                <attrlabl>REGION</attrlabl>
+                <attrdef>Numeric code for the DNR region</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>SHORE_MI</attrlabl>
+                <attrdef>Lake shoreline length in miles (includes length of island shorelines)</attrdef>
+                <attrdomv/>
+            </attr>
+            <attr>
+                <attrlabl>FLID</attrlabl>
+                <attrdef>Unique Fisheries Lake ID as per Fisheries Lake Survey Oracle database</attrdef>
+                <attrdomv>
+                    <edom>
+                        <edomv>1-17100</edomv>
+                        <edomvd>Valid FLID codes</edomvd>
+                    </edom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>FSH_OFFICE</attrlabl>
+                <attrdef>Fisheries area office responsible for survey and management of this waterbody.</attrdef>
+                <attrdomv/>
+            </attr>
+            <attr>
+                <attrlabl>CTY_NAME</attrlabl>
+                <attrdef>County name</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>USCLASS</attrlabl>
+                <attrdef>Field that stores the hydrologic feature type, as per the original USGS DLG classification. Code definitions have been expanded by DNR Fisheries, and some features have been re-classified to better reflect current hydrographic conditions.</attrdef>
+                <attrdomv>
+                    <edom>
+                        <edomv>-99999</edomv>
+                        <edomvd>Not a valid hydrography feature.  Commonly refers to islands and other land features.</edomvd>
+                    </edom>
+                    <edom>
+                        <edomv>105</edomv>
+                        <edomvd>Innundation area; wet areas surrounding a river or stream; floodplain areas, seasonally or periodically flooded.   USGS topo quad map shows sparse wetland symbols around linear stream feature(s).</edomvd>
+                    </edom>
+                    <edom>
+                        <edomv>106</edomv>
+                        <edomvd>Fish hatchery or farm; constructed ponds, usually square or rectangular, often sub-divided.  USGS topo quad map shows blue shaded polygons with text FISH HATCHERY PONDS or similar.
+</edomvd>
+                    </edom>
+                    <edom>
+                        <edomv>107</edomv>
+                        <edomvd>Industrial water impoundment; constructed ponds, usually square or rectangular.  USGS topo quad map has blue shaded polygons with brown marks perpendicular to pond boundaries; text says INDUSTRIAL WASTE PONDS or similar.
+
+</edomvd>
+                    </edom>
+                    <edom>
+                        <edomv>108</edomv>
+                        <edomvd>Artificially constructed pond or basin, including farm ponds and waste ponds, which do not meet other USCLASS code descriptions.</edomvd>
+                    </edom>
+                    <edom>
+                        <edomv>109</edomv>
+                        <edomvd>Sewage disposal pond or filtration bed; constructed ponds, usually square or rectangular.  USGS topo quad map shows blue shaded polygons with brown marks perpendicular to pond boundaries; text says SEWAGE DISPOSAL PONDS or similar.
+</edomvd>
+                    </edom>
+                    <edom>
+                        <edomv>110</edomv>
+                        <edomvd>Tailings pond (disposal site for leftover material from mining operations); often in rugged terrain near active mine pits; may appear to be dried up. USGS topo quad map shows light purple hatched polygons with text TAILINGS POND or similar.
+</edomvd>
+                    </edom>
+                    <edom>
+                        <edomv>111</edomv>
+                        <edomvd>Wetlands, including marshes, swamps, and bogs. USGS topo quad maps show blue wetland symbols. Wetland boundaries may not be well-defined and can be difficult to identify on an aerial photo.</edomvd>
+                    </edom>
+                    <edom>
+                        <edomv>116</edomv>
+                        <edomvd>Bay or estuary. In this data set, applies only to the St. Louis Bay Estuary which flows into Lake Superior.</edomvd>
+                    </edom>
+                    <edom>
+                        <edomv>400</edomv>
+                        <edomvd>Rapids within a river or stream; may be downstream of a dam. USGS topo quad map text says RAPIDS or similar. </edomvd>
+                    </edom>
+                    <edom>
+                        <edomv>402</edomv>
+                        <edomvd>Gravel pit, mine pit, or quarry filled with water; often in rugged terrain near other pits; water color on air photos may appear turquoise or light blue. USGS topo quad maps show the mine pit symbol and (sometimes) a mine name.
+</edomvd>
+                    </edom>
+                    <edom>
+                        <edomv>403</edomv>
+                        <edomvd>Non-water portion of a mine pit.</edomvd>
+                    </edom>
+                    <edom>
+                        <edomv>412</edomv>
+                        <edomvd>Polygon outline of stream or river features, including pools of major rivers formed by dams. USGS topo quad map shows stream or river name. The polygon is often not complete for the entire length of the river/stream. (See DNR 24K Streams layer for a more comprehensive linear coverage of streams and rivers.)</edomvd>
+                    </edom>
+                    <edom>
+                        <edomv>419</edomv>
+                        <edomvd>Channel in water area; a distinct channel (polygon) feature lying within an otherwise wetland-dominated area.</edomvd>
+                    </edom>
+                    <edom>
+                        <edomv>421</edomv>
+                        <edomvd>Lake or pond; well-defined basins, often named on USGS topo quad map. May include basins in the backwaters of major rivers that are formed from river waters but function as individual basins.</edomvd>
+                    </edom>
+                    <edom>
+                        <edomv>610</edomv>
+                        <edomvd>Intermittent hydrography feature, less often flooded than a wetland (code 111).  Usually shows an outline of a former or current hydrographic feature on the landscape, although it may be dried up and/or have vegetation.  USGS topo quad map shows sparse blue wetland symbols.
+</edomvd>
+                    </edom>
+                    <edom>
+                        <edomv>612</edomv>
+                        <edomvd>Submerged area; usually shows an outline of a current hydrographic feature on the landscape; standing water is usually visible.  USGS topo quad map shows solid blue shaded polygons with or next to sparse blue wetland symbols. </edomvd>
+                    </edom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>DOWLKNUM</attrlabl>
+                <attrdef>DNR Division of Waters lake ID number</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>MAIN_DOW</attrlabl>
+                <attrdef>The primary DOWLKNUM for a lake (the MAIN DOW number ends in ''''00'''').  Some lakes are split into sub-basins for management or study purposes.  In this case, sub-basin IDs are assigned; (the DOWLKNUM number will end in ''''01'''', ''''02,'''' etc.)</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>DOW_VERIF</attrlabl>
+                <attrdef>A flag to identify records whose DOW numbers have been validated. For the most part, only those lakes whose DOW numbers are listed in the DNR Fisheries Lake Survey Database (meaning the lake has been surveyed at least once) have been validated.   </attrdef>
+            </attr>
+            <attr>
+                <attrlabl>LAKE_NAME</attrlabl>
+                <attrdef>Lake Name per Division of Waters LKDBMAIN database</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>ALT_NAME</attrlabl>
+                <attrdef>Alternate lake name per Division of Waters LKDBMAIN database</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>LAKE_CLASS</attrlabl>
+                <attrdef>This field holds the DNR Fisheries Lake Class value.  The Section of Fisheries developed an ecological classification system for Minnesota's lakes based on the analysis of historical survey records.  Variables used to develop the models include:  lake area, maximum depth, percent littoral area, total alkalinity, secchi disc transparency, shoreline development factor, morphoedaphic index, and Carlson's Trophic status index.  Characteristic fish communities were described for each lake class by analyzing historical gill net and trap net data.  Fisheries managers use this information to evaluate fish population status, determine the effectiveness of various management actions, and to establish realistic fisheries management goals and objectives.  The classification system is described in An Ecological Classification of Minnesota Lakes With Associated Fish Communities, by Dennis H. Schupp.  1992.   Investigational Report No. 417, Minnesota Department of Natural Resources, Section of Fisheries, St. Paul, MN.  Available online at: http://www.dnr.state.mn.us/publications/fisheries/investigational_reports.html . Click on #417.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>SRC_VERSION</attrlabl>
+                <attrdef>Source data version; last date polygon shape edited</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>REDIG_SRC</attrlabl>
+                <attrdef>Photo imagery source for redigitizing of water polygon features.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>ACRES</attrlabl>
+                <attrdef>Polygon area in acres</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>UTMX</attrlabl>
+                <attrdef>UTM X Coordinate of polygon center</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>UTMY</attrlabl>
+                <attrdef>UTM Y Coordinate of polygon center</attrdef>
+            </attr>
+        </detailed>
+        <overview>
+            <eaover/>
+            <eadetcit/>
+        </overview>
+    </eainfo>
+    <distinfo>
+        <distrib>
+            <cntinfo>
+                <cntperp>
+                    <cntper>Hal Watson</cntper>
+                    <cntorg>DNR-MIS</cntorg>
+                </cntperp>
+                <cntpos>GIS Database Coordinator</cntpos>
+                <cntaddr>
+                    <addrtype>Mailing and Physical</addrtype>
+                    <address>500 Lafayette Road, Box 11</address>
+                    <city>St. Paul</city>
+                    <state>MN</state>
+                    <postal>55155-4011</postal>
+                </cntaddr>
+                <cntvoice>(651) 259-5508</cntvoice>
+                <cntfax>(651) 297-4946</cntfax>
+                <cntemail>hal.watson@state.mn.us</cntemail>
+            </cntinfo>
+        </distrib>
+        <resdesc>lake_dnrpy2</resdesc>
+        <distliab>The Minnesota Department of Natural Resources makes no representation or warranties, express or implied, with respect to the reuse of data provided herewith, regardless of its format or the means of its transmission. There is no guarantee or representation to the user as to the accuracy, currency, suitability, or reliability of this data for any purpose. The user accepts the data 'as is', and assumes all risks associated with its use. By accepting this data, the user agrees not to transmit this data or provide access to it or any part of it to another party unless the user shall include with the data a copy of this disclaimer. The Minnesota Department of Natural Resources assumes no responsibility for actual or consequential damage incurred as a result of any user's reliance on this data.</distliab>
+        <stdorder>
+            <digform>
+                <digtinfo>
+                    <formname>Shapefile</formname>
+                    <formvern/>
+                    <transize/>
+                </digtinfo>
+            </digform>
+            <ordering>See Online Linkage or Distribution Contact</ordering>
+        </stdorder>
+    </distinfo>
+    <metainfo>
+        <metd>2008-11-25 09:32:06.0</metd>
+        <metc>
+            <cntinfo>
+                <cntperp>
+                    <cntper>Hal Watson</cntper>
+                    <cntorg>DNR-MIS</cntorg>
+                </cntperp>
+                <cntpos>GIS Database Coordinator</cntpos>
+                <cntaddr>
+                    <addrtype>Mailing and Physical</addrtype>
+                    <address>500 Lafayette Road, Box 11</address>
+                    <city>St. Paul</city>
+                    <state>MN</state>
+                    <postal>55155-4011</postal>
+                </cntaddr>
+                <cntvoice>(651) 259-5508</cntvoice>
+                <cntfax>(651) 297-4946</cntfax>
+                <cntemail>hal.watson@state.mn.us</cntemail>
+            </cntinfo>
+        </metc>
+        <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+        <metstdv>1.2</metstdv>
+        <metextns>
+            <onlink>http://www.gis.state.mn.us/stds/metadata.htm</onlink>
+        </metextns>
+    </metainfo>
+</metadata>
