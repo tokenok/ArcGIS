@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en"><Esri><CreaDate>20170929</CreaDate><CreaTime>10133900</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Spatial Analyst Tools.tbx\Reclassify" Date="20170929" Time="101339">Reclassify landcov.tif Value "11 41 1;41 42 2;42 43 3;43 92 4" C:\Workspace\jurmann\IntroGIS\raster_review\Reclass_landcov3.tif DATA</Process></lineage></DataProperties></Esri></metadata>

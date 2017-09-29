@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en"><Esri><CreaDate>20170929</CreaDate><CreaTime>10282000</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Spatial Analyst Tools.tbx\Reclassify" Date="20170929" Time="102820">Reclassify water_mask.tif Value "21 40 1;41 100;42 10;43 100;44 92 1" C:\Workspace\jurmann\IntroGIS\raster_review\Reclass_water_m2.tif DATA</Process></lineage></DataProperties></Esri></metadata>
