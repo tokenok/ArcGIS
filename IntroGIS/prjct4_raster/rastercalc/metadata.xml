@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en"><Esri><CreaDate>20170929</CreaDate><CreaTime>19142900</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Spatial Analyst Tools.tbx\RasterCalculator" Date="20170929" Time="191429">RasterCalculator ""Reclass_elev1.tif" + "Reclass_land_ma1.tif" + "Reclass_dist21.tif"" C:\Workflow\jurmann\ArcGIS\IntroGIS\prjct4_raster\rastercalc</Process></lineage></DataProperties></Esri></metadata>

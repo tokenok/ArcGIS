@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en"><Esri><CreaDate>20170929</CreaDate><CreaTime>19135400</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Spatial Analyst Tools.tbx\Reclassify" Date="20170929" Time="191354">Reclassify elev VALUE "-2 75 1;75 100 10;100 2400 100" C:\Workflow\jurmann\ArcGIS\IntroGIS\prjct4_raster\Reclass_elev1.tif DATA</Process></lineage></DataProperties></Esri></metadata>
