@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en"><Esri><CreaDate>20171002</CreaDate><CreaTime>10160800</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Spatial Analyst Tools.tbx\Reclassify" Date="20171002" Time="101608">Reclassify EucDist_BarHarb1.tif VALUE "0 20 100;20 30 10;30 118059 1" C:\Workspace\jurmann\IntroGIS\exam2raster\Reclass_EucDist1.tif DATA</Process></lineage></DataProperties></Esri></metadata>
