@@ -1,0 +1,304 @@
+<?xml version="1.0"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Minnesota DNR - Minerals Division/Section of Wildlife</origin>
+				<pubdate>1995-06-01 00:00:00.0</pubdate>
+				<title>Section Level Public Land Survey - polygons</title>
+				<mgmg1cid/>
+				<pubinfo>
+					<publish>Minnesota DNR - Division of Lands &amp; Minerals</publish>
+				</pubinfo>
+				<onlink>http://deli.dnr.state.mn.us</onlink>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>Public Land Survey line delineations to the section level.  Data are derived primarily from Section corner locations captured from paper USGS seven and one-half minute quadrangle maps.</abstract>
+			<purpose>Section level mapping of land ownership.  Basemap information for cartographic products.</purpose>
+			<supplinf>Statewide</supplinf>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>Unknown</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>USGS source maps varied widely in publication date.   GISMO development/maintenance was during the late 1970s and early 80s.  Coverage generation: Spring 1993.    Attribute restructuring to ensure conformance with the DNR PLS Coding Standard in April, 1996.</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>As Needed</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-97.5</westbc>
+				<eastbc>-89</eastbc>
+				<northbc>49.5</northbc>
+				<southbc>43</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekey>Public Land Survey, PLS, Sections, Townships, planningCadastre</themekey>
+			</theme>
+			<place>
+				<placekey>Minnesota</placekey>
+			</place>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>Use of the data are constrained only by the DNR GIS Data License Agreement</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntper>Renee Johnson</cntper>
+					<cntorg>DNR-Lands and Minerals</cntorg>
+				</cntperp>
+				<cntpos>ITS 3</cntpos>
+				<cntaddr>
+					<addrtype>Mailing and Physical</addrtype>
+					<address>500 Lafayette Road - Box 45</address>
+					<city>St. Paul</city>
+					<state>MN</state>
+					<postal>55155</postal>
+				</cntaddr>
+				<cntvoice>(651) 259-5396</cntvoice>
+				<cntfax>(651) 296-5939</cntfax>
+				<cntemail>renee.johnson@state.mn.us</cntemail>
+			</cntinfo>
+		</ptcontac>
+		<browse>
+			<browsen>http://jmaps.dnr.state.mn.us/gis/dp_datasample.jsp?mpid=23000004&amp;ptid=2&amp;fcid=1&amp;lname=Section Level Public Land Survey - polygons</browsen>
+			<browsed/>
+		</browse>
+		<native>ARC/INFO 7.0.3</native>
+		<crossref>
+			<citeinfo>
+				<title/>
+			</citeinfo>
+		</crossref>
+	</idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>Source table PLS_SECTPY3.DBF:  Attribute accuracy of the data are technically unknown, although the data source has been used extensively for the past three years without any known problems.
+</attraccr>
+		</attracc>
+		<logic>Data are topolocially correct using ARC/INFO 7.0.3.  All polygons are closed and lines intersect where intended.</logic>
+		<complete>All PLS sections existing within the state of Minnesota are presented in the database.</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>Source layer plsctne3:  Source accuracies vary greatly.  PLS lines and coincident county boundaries range in expected offsets from 50 to 200 feet, with the smaller value being more common.  The most significant offsets within this category are in the northeastern portion of the state where the USGS quad sources are most tentative with regards to section corner locations.  County boundaries not coincident with PLS lines are typically from 1990 vintage TIGER data with many off-sets in the 100 foot range.  The international boundary should be highly accurate as it was taken directly from legislative notes.  The Lake Superior North Shore was from National Wetland Inventory and will typically exhibit off-sets of about 60 feet, with generally good depictions of the shore line character.
+</horizpar>
+			</horizpa>
+			<vertacc>
+				<vertaccr>Source layer plsctne3:  Not Applicable
+</vertaccr>
+			</vertacc>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srcscale>Source layer plsctne3:  24000
+</srcscale>
+			</srcinfo>
+			<procstep>
+				<procdesc>Attribute Lineage for source table PLS_SECTPY3.DBF:  Some attribute table restructuring was performed during the GIS Core Library development effort in March 1996.  This entailed bringing the data into compliance with the DNR Public Land Survey Coding Standard (Division of Minerals-1995)
+</procdesc>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spdoinfo>
+		<indspref/>
+		<direct>vector</direct>
+		<mgmg3obj>polygon</mgmg3obj>
+		<mgmg3til>state</mgmg3til>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<geograph>
+				<latres/>
+				<longres/>
+			</geograph>
+			<planar>
+				<mapproj>
+					<mapprojn>Transverse Mercator</mapprojn>
+					<mgmg4par>Not Applicable</mgmg4par>
+					<otherprj>Not Applicable</otherprj>
+				</mapproj>
+				<gridsys>
+					<gridsysn>UTM</gridsysn>
+					<utm>
+						<utmzone>15</utmzone>
+					</utm>
+					<spcs>
+						<spcszone/>
+					</spcs>
+					<mgmg4coz/>
+					<mgmg4adj>Not Applicable</mgmg4adj>
+				</gridsys>
+				<planci>
+					<coordrep>
+						<absres/>
+						<ordres/>
+					</coordrep>
+					<distbrep>
+						<distres/>
+					</distbrep>
+					<plandu>meters</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn>NAD83</horizdn>
+				<ellips>GRS1980</ellips>
+			</geodetic>
+		</horizsys>
+		<vertdef>
+			<altsys>
+				<altdatum>Not Applicable</altdatum>
+				<altunits>Not Applicable</altunits>
+			</altsys>
+			<depthsys>
+				<depthdn>Not Applicable</depthdn>
+				<depthdu>Not Applicable</depthdu>
+			</depthsys>
+		</vertdef>
+	</spref>
+	<eainfo>
+		<detailed>
+			<enttyp>
+				<enttypl>PLS_SECTPY3.DBF</enttypl>
+				<enttypd>Shapefile Attribute Table</enttypd>
+			</enttyp>
+			<attr>
+				<attrlabl>TOWN</attrlabl>
+				<attrdef>Three digit township (tier) number</attrdef>
+				<attrdomv>
+					<edom>
+						<edomv>26-71, 101-168</edomv>
+						<edomvd>discreet values</edomvd>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>RDIR</attrlabl>
+				<attrdef>Range direction</attrdef>
+				<attrdomv>
+					<edom>
+						<edomv>0</edomv>
+						<edomvd>West</edomvd>
+					</edom>
+					<edom>
+						<edomv>1</edomv>
+						<edomvd>East</edomvd>
+					</edom>
+					<edom>
+						<edomv>2</edomv>
+						<edomvd>Township 58 1/2 (St. Louis Co.) and Range 42 1/2 (Roseau Co.)</edomvd>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>RANG</attrlabl>
+				<attrdef>Two digit range number</attrdef>
+				<attrdomv>
+					<edom>
+						<edomv>1-51</edomv>
+						<edomvd>Continuous values.  All values are unique with the exception of 1 through 7, which are shared.</edomvd>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>SECT</attrlabl>
+				<attrdef>PLS section number</attrdef>
+				<attrdomv>
+					<edom>
+						<edomv>1-36</edomv>
+						<edomvd>Section number values.</edomvd>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>MISMATCH</attrlabl>
+				<attrdef>Flag indicating that a record does not have a corresponding match in the RAD file of the RECFAC database.  Essentially, this item exists to document differences between the existence of features in this coverage and those in the EPPL-MILMIS40 database</attrdef>
+				<attrdomv>
+					<edom>
+						<edomv>N</edomv>
+						<edomvd>No match in RAD file.  There are 113 records in this table with a value of "N."</edomvd>
+					</edom>
+					<edom>
+						<edomv>Y</edomv>
+						<edomvd>Has match in RAD file</edomvd>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>TWPRNGSEC</attrlabl>
+				<attrdef>REDEFINEd.  A composite of township, range direction, range, and section number</attrdef>
+				<attrdomv/>
+			</attr>
+		</detailed>
+		<overview>
+			<eaover/>
+			<eadetcit/>
+		</overview>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntperp>
+					<cntper>Hal Watson</cntper>
+					<cntorg>DNR-MIS</cntorg>
+				</cntperp>
+				<cntpos>GIS Database Coordinator</cntpos>
+				<cntaddr>
+					<addrtype>Mailing and Physical</addrtype>
+					<address>500 Lafayette Road, Box 11</address>
+					<city>St. Paul</city>
+					<state>MN</state>
+					<postal>55155-4011</postal>
+				</cntaddr>
+				<cntvoice>(651) 259-5508</cntvoice>
+				<cntfax>(651) 297-4946</cntfax>
+				<cntemail>hal.watson@state.mn.us</cntemail>
+			</cntinfo>
+		</distrib>
+		<resdesc>pls_sectpy3</resdesc>
+		<distliab>The Minnesota Department of Natural Resources makes no representation or warranties, express or implied, with respect to the reuse of data provided herewith, regardless of its format or the means of its transmission. There is no guarantee or representation to the user as to the accuracy, currency, suitability, or reliability of this data for any purpose. The user accepts the data 'as is', and assumes all risks associated with its use. By accepting this data, the user agrees not to transmit this data or provide access to it or any part of it to another party unless the user shall include with the data a copy of this disclaimer. The Minnesota Department of Natural Resources assumes no responsibility for actual or consequential damage incurred as a result of any user's reliance on this data.</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>Shapefile</formname>
+					<formvern>Not Applicable</formvern>
+					<transize>21</transize>
+				</digtinfo>
+			</digform>
+			<ordering>See Online Linkage or Distribution Contact</ordering>
+		</stdorder>
+	</distinfo>
+	<metainfo>
+		<metd>2006-08-09 08:50:20.0</metd>
+		<metc>
+			<cntinfo>
+				<cntperp>
+					<cntper>Renee Johnson</cntper>
+					<cntorg>DNR-Lands and Minerals</cntorg>
+				</cntperp>
+				<cntpos>ITS 3</cntpos>
+				<cntaddr>
+					<addrtype>Mailing and Physical</addrtype>
+					<address>500 Lafayette Road - Box 45</address>
+					<city>St. Paul</city>
+					<state>MN</state>
+					<postal>55155</postal>
+				</cntaddr>
+				<cntvoice>(651) 259-5396</cntvoice>
+				<cntfax>(651) 296-5939</cntfax>
+				<cntemail>renee.johnson@state.mn.us</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+		<metstdv>1.2</metstdv>
+		<metextns>
+			<onlink>http://www.gis.state.mn.us/stds/metadata.htm</onlink>
+		</metextns>
+	</metainfo>
+	<Esri><CreaDate>20150208</CreaDate><CreaTime>10571600</CreaTime><SyncOnce>TRUE</SyncOnce><DataProperties><itemProps><itemLocation><linkage Sync="TRUE">file://\\MN1455862W\C$\smjones\BSU\s2015\IntroGIS\wk5digitize\prjct5digitize\pls_sectpy3</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation></itemProps><copyHistory><copy source="C:\smjones\BSU\f2014\Geog3231IntroGIS\wk6\prjct5_digitize\mndnrdata\metadata\pls_sectpy3" dest="\\MN1455862W\C$\smjones\BSU\s2015\IntroGIS\wk5digitize\prjct5digitize\pls_sectpy3" date="20150208" time="10571600"></copy></copyHistory></DataProperties></Esri></metadata>
